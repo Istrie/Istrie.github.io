@@ -92,3 +92,28 @@ footer {
   color: #fff;
   border-radius: 6px;
 }
+
+/* Style général des boutons */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff; /* couleur de fond */
+  color: #fff;               /* couleur du texte */
+  font-weight: bold;
+  text-decoration: none;     /* enlève le soulignement sur les liens */
+  border: none;              /* pas de bordure par défaut */
+  border-radius: 6px;        /* coins arrondis */
+  cursor: pointer;           /* curseur main au survol */
+  transition: all 0.3s;      /* animation pour hover */
+}
+
+/* Effet au survol */
+.btn:hover {
+  background-color: #0056b3; /* couleur plus foncée au survol */
+  transform: translateY(-2px); /* léger effet “soulèvement” */
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+
