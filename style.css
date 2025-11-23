@@ -41,13 +41,13 @@ section {
   border-radius: 8px;
 }
 
-.project-list {
+.item-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.project {
+.item {
   flex: 1 1 200px;
   padding: 1rem;
   border: 1px solid #ddd;
