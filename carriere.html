@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrière</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    // Fonction pour changer la langue
+    function changeLanguage(lang) {
+      if (lang === 'fr') {
+        window.location.href = '../mobilité.html'; // Redirige vers la version française
+      } else if (lang === 'en') {
+        window.location.href = 'mobilité.html'; // Redirige vers la version anglaise
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Carpentier Lilian</h1>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formation.html">Formation</a></li>
+        <li><a href="engagement.html">Engagement Civique</a></li>
+        <li><a href="mobilité.html">Mobilité Internationale</a></li>
+        <li><a href="carriere.html">Carrière</a></li>
+      </ul>
+
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('fr')">Français</button>
+    </nav>
+  </header>
+
+  <section id="career">
+    <h2>Ma Carrière</h2>
+
+    <div class="career-description">
+      <h3>Ce dans quoi je travaille actuellement</h3>
+      <p>Actuellement, je suis étudiant en deuxième année à l'ENSEEIHT, dans le parcours Architecture, Systèmes et Réseaux (ASR).</p>
+      
+      <h3>Ce que j'aimerais faire après</h3>
+      <p>À l'avenir, je souhaite travailler en tant qu'ingénieur en cybersécurité.</p>
+    </div>
+
+    <div class="career-documents">
+      <h3>Documents Professionnels</h3>
+      <ul>
+        <li><a href="files/CV mobilite.pdf" target="_blank">Mon CV</a></li>
+        <li><a href="files/Lettre_de_Motivation.pdf" target="_blank">Ma Lettre de Motivation</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Carpentier Lilian. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
