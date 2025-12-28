@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ePortfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    // Fonction pour changer la langue
+    function changeLanguage(lang) {
+      if (lang === 'fr') {
+        window.location.href = '../index.html'; // Redirige vers la version française
+      } else if (lang === 'en') {
+        window.location.href = 'index.html'; // Redirige vers la version anglaise
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Carpentier Lilian</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="formation.html">Education</a></li>
+        <li><a href="engagement.html">Civic Engagement</a></li>
+        <li><a href="mobilité.html">International Mobility</a></li>
+      </ul>
+      <!-- Boutons pour changer de langue -->
+      <button onclick="changeLanguage('en')">English</button>
+      <button onclick="changeLanguage('fr')">Français</button>
+    </nav>
+  </header>
+
+  <section id="submenu">
+    <ul>
+        <h2>Welcome to my ePortfolio</h2>
+        <p>Discover me!</p>
+        <a href="formation.html" class="btn">My Education</a>
+        <a href="engagement.html" class="btn">My Civic Engagement</a>
+        <a href="mobilité.html" class="btn">My International Mobility</a>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello, my name is Lilian. I am currently a student at ENSEEIHT in the SN program. In the future, I want to work in the field of cybersecurity. 
+        I have already completed some projects in various programming languages like Python, Java, HTML, CSS, Ada, C, OCaml, ... Now I want to focus more on networking and its security aspects.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Short description of the project.</p>
+        <a href="#">See the project</a>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Short description of the project.</p>
+        <a href="#">See the project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can contact me via:</p>
+    <ul>
+      <li>Email: lilian.carpentier@etu.toulouse-inp.fr</li>
+      <li>LinkedIn: <a href="#">My Profile</a></li>
+      <li>GitHub: <a href="#">My GitHub</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Carpentier Lilian. All rights reserved.</p>
+  </footer>
+</body>
+</html>

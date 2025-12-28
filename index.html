@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,6 +6,16 @@
   <title>Mon ePortfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    // Fonction pour changer la langue
+    function changeLanguage(lang) {
+      if (lang === 'fr') {
+        window.location.href = 'index.html'; // Redirige vers la version française
+      } else if (lang === 'en') {
+        window.location.href = 'en/index.html'; // Redirige vers la version anglaise
+      }
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -17,8 +26,10 @@
         <li><a href="formation.html">Formation</a></li>
         <li><a href="engagement.html">Engagement Civique</a></li>
         <li><a href="mobilité.html">Mobilité internationale</a></li>
-        <!--<li><a href="moi.html">Contact</a></li>-->
       </ul>
+      <!-- Boutons pour changer de langue -->
+      <button onclick="changeLanguage('en')">English</button>
+      <button onclick="changeLanguage('fr')">Français</button>
     </nav>
   </header>
 
@@ -35,7 +46,7 @@
   <section id="about">
     <h2>À propos de moi</h2>
     <p>Bonjour, je m'appelle Lilian, je suis actuellement étudiant en à l'ENSEEIHT dans la filière SN. Dans le futur, j'aimerai travailler dans le domaine de la cybersécurité. 
-        J'ai déjà réalisé quelques projet dans différents langages de programmation comme Python, Java, html, css, Ada, c, Ocaml, ... J'aimerais désormais me consacrer d'avantage
+        J'ai déjà réalisé quelques projets dans différents langages de programmation comme Python, Java, HTML, CSS, Ada, C, OCaml, ... J'aimerais désormais me consacrer davantage
         aux réseaux et à l'aspect sécuritaire de ces derniers.
     </p>
   </section>
