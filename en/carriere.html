@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    // Function to change language
+    function changeLanguage(lang) {
+      if (lang === 'fr') {
+        window.location.href = '../carriere.html'; // Redirect to the French version
+      } else if (lang === 'en') {
+        window.location.href = 'carriere.html'; // Redirect to the English version
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Carpentier Lilian</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="formation.html">Education</a></li>
+        <li><a href="engagement.html">Civic Engagement</a></li>
+        <li><a href="mobilité.html">International Mobility</a></li>
+        <li><a href="carriere_en.html">Career</a></li>
+      </ul>
+
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('fr')">Français</button>
+    </nav>
+  </header>
+
+  <section id="career">
+    <h2>My Career</h2>
+
+    <div class="career-description">
+      <h3>What I'm Working on Now</h3>
+      <p>Currently, I am a second-year student at ENSEEIHT, specializing in Architecture, Systems, and Networks (ASR).</p>
+      
+      <h3>What I Want to Do in the Future</h3>
+      <p>In the future, I aim to work as a cybersecurity engineer.</p>
+    </div>
+
+    <div class="career-documents">
+      <h3>Professional Documents</h3>
+      <ul>
+        <li><a href="files/CV_mobilite.pdf" target="_blank">My CV</a></li>
+        <li><a href="files/Lettre_de_Motivation.pdf" target="_blank">My Cover Letter</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Carpentier Lilian. All rights reserved.</p>
+  </footer>
+</body>
+</html>

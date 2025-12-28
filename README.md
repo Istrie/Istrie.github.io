@@ -3,8 +3,6 @@ Lettre de motivation
 ----Vidéo?
 ---photo
 powerpoint
-lien linkedin
-lien github
 ajout des projet
 ajout d'une page plus personnelle (moi, sport, passion)
 étoffer la page mobilité (les destination envisagé)
