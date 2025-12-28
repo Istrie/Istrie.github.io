@@ -1,8 +1,7 @@
 To do list:
-CV
 Lettre de motivation
-Vidéo?
-photo
+----Vidéo?
+---photo
 powerpoint
 lien linkedin
 lien github
