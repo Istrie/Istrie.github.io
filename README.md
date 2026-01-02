@@ -2,7 +2,7 @@ To do list:
 Lettre de motivation
 ----Vidéo?
 ---photo
-powerpoint
+powerpoint ok?
 ajout des projet
 ajout d'une page plus personnelle (moi, sport, passion)
 étoffer la page mobilité (les destination envisagé)
